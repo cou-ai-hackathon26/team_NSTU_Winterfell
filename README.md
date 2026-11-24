@@ -1,24 +1,28 @@
-# A Note to the CoU AI Hackathon 2026 Evaluators
+# To the Organizers of the CoU AI Hackathon 2026
 
-We, Team NSTU Winterfell, built **GasLine**: a working, offline, machine-learning system that predicts which garment export orders a gas-pressure crisis will make late, tells a merchandiser which ship date is safe to promise before signing, and prices the cheapest rescue against air freight. It came with a live demo, automated tests (56/56 passing), and full documentation.
+We are Team NSTU Winterfell. We spent days building **GasLine**: a working, offline machine-learning system that predicts which garment export orders a gas crisis will make late, tells a merchandiser which ship date is safe to promise before signing, and prices the cheapest rescue against air freight. It had a live demo, 56 passing automated tests, two on-site challenges implemented, and full documentation.
 
-In our view, it was not evaluated properly.
+Your event gave it a review that did not deserve the name.
 
-## On the evaluation process
+## What went wrong, in our words
 
-Our team was assigned a single evaluator. In our experience, that review did not engage with the technical substance of the work: the cascaded ML models, the conformal prediction, the uncertainty-aware optimizer, or the two on-site challenges we implemented. A project that combines machine learning, operations research, and domain-specific manufacturing economics cannot be fairly judged by one reviewer who isn't equipped to assess it. Hackathons that claim to reward "meaningful use of AI" should assign reviewers with the technical background to tell a real system from a wrapper, or at least use more than one.
+- **One evaluator for a technical project.** You assigned a single reviewer to a system built from cascaded gradient-boosted models, split-conformal prediction, and an operations-research optimizer over a nine-scenario uncertainty grid. That reviewer did not engage with any of it. You can't call that evaluation. It was a formality.
+- **"Meaningful use of AI" was your own criterion, and you weren't equipped to apply it.** Your rubric told teams not to submit prompt wrappers. A rubric like that only means something if the judges can tell the difference. Ours could not.
+- **Our time was taken for granted.** Three days of pre-build and a five-hour on-site final went into this. The least you owed us was a reviewer who could follow the work, and feedback we could use.
+- **A hackathon is a promise.** You promised to reward real engineering. When the judging can't recognize real engineering, the prizes don't mean much, and neither does the ranking. Whoever ranked above us should be asking whether that ranking would survive a competent review.
 
-## What we'd ask of evaluators
+## What we want you to take from this
 
-If you judge a project, please do these things:
+1. Assign judges who can read code and understand the problem domain.
+2. Use more than one judge per team.
+3. Publish scoring breakdowns, so teams can see why they ranked where they did.
+4. Don't promise a technical evaluation you aren't staffed to carry out.
 
-1. **Run the code.** Open the repo, install it, and click through it. A README is a claim, not a result.
-2. **Check "meaningful AI" against the code.** Read the models, the conformal prediction, and the optimizer before deciding whether something is a prompt wrapper.
-3. **Give feedback.** Teams that spend days building should be told why they ranked where they did.
-4. **Be consistent.** Apply the rubric you published to every team, the same way.
+## Where our work lives
 
-This repository has been cleared by its maintainers, which the hackathon license (Section 5) allows. The full commit history is still available in the git log.
+This repository has been cleared by its maintainers, which the hackathon license (Section 5) allows. The project, including the code, the documentation, and the tests, is here, and only here:
 
-The complete project lives here: **https://github.com/sovon1/Gasline**
+**https://github.com/sovon1/Gasline**
 
-Team NSTU Winterfell, Noakhali Science and Technology University
+Team NSTU Winterfell
+Noakhali Science and Technology University
